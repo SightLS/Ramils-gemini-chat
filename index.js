@@ -72,7 +72,7 @@ app.post('/api/chat', async (req, res) => {
   // Обновляем таймстамп
   dialogStates[dialogId].lastUpdated = now;
 
-  // Проверка кэша частых вопросов
+  // Проверка кэша частых вопросов  
   const normalizedQuestion = userMessage.toLowerCase();
   if (commonAnswers[normalizedQuestion]) {
     return res.json({ reply: commonAnswers[normalizedQuestion] });
