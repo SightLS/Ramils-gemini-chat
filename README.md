@@ -8,7 +8,7 @@
 
 В проекте используется системный промпт, который задаёт стиль общения и тематику диалога. Можете его изменить, просто поменяйте исходные данные в файле promt.js
 
-опробовать его можно сдесь: https://sightls-profile.vercel.app/
+опробовать его можно тут: https://sightls-profile.vercel.app/
 
 ссылка на реализацию front-end: https://github.com/SightLS/sightls-profile/blob/main/src/components/chat/Chat.vue
 
